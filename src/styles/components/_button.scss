@@ -1,0 +1,35 @@
+.btn {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 800;
+  text-transform: uppercase;
+  padding: 22px 58px;
+  background-color: rgba(0, 0, 0, 0.302);
+  border: none ;
+  cursor: pointer;
+}
+
+.banner-btns {
+  position: absolute;
+  bottom: 0;
+  margin-left: 10px;
+}
+
+.btn-square {
+  width: 50px;
+  height: 50px;
+  color: $text-color;
+  background: #26262a;
+  text-align: center;
+  border: none;
+  margin: 0 -1px;
+  cursor: pointer;
+  &:first-child {
+    margin-left: 0;
+  }
+
+   &-active {
+     background: $primary-color;
+     border: none;
+   }
+}

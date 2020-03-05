@@ -1,0 +1,83 @@
+.banner-section {
+ .container {
+   display: flex;
+   justify-content: space-between;
+
+ }
+}
+
+.banner-img {
+  position: relative;
+  max-width: 1050px;
+}
+
+.banner-img-info {
+  position: absolute;
+  right: 15%;
+  top: 25%;
+}
+
+.banner-title {
+  font-size: 18px;
+  font-weight: 300;
+  max-width: 175px;
+  line-height: 2;
+  text-transform: uppercase;
+  padding-bottom: 45px;
+  span {
+    font-weight: 800;
+  }
+}
+
+.banner-info {
+  color: $primary-color;
+  background-color: #26262a;
+  height: 400px;
+  width: 210px;
+  position: relative;
+   &-name {
+     writing-mode: vertical-rl;
+     text-orientation: mixed;
+     font-size: 12px;
+     font-weight: 300;
+     position: absolute;
+     top: 33%;
+     left: 45%;
+     &:after {
+       content: '';
+       width: 1px;
+       height: 40px;
+       background-color: #ffffff;
+       position: absolute;
+       bottom: -150%;
+       left: 40%;
+     }
+   }
+
+  .banner-counter {
+    position: absolute;
+    bottom: 30px;
+    left: 45%;
+    font-size: 12px;
+    font-weight: 300;
+  }
+}
+
+.btn-more {
+
+}
+
+.banner-btn {
+
+}
+
+
+
+
+
+
+
+
+
+
+
